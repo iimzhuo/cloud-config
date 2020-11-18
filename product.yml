@@ -14,7 +14,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: ccat
-    url: jdbc:mysql://127.0.0.1:3306/re?characterEncoding=utf-8
+    url: jdbc:mysql://127.0.0.1:3306/re?characterEncoding=utf-8s
 eureka:
   client:
     service-url: # EurekaServer的地址，现在是自己的地址，如果是集群，需要加上其它Server的地址。
